@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 25px;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card-1 {
+    background: #f59b00;
+    width: 270px;
+    height: 400px;
+    margin: 0px;
+    border-radius: 10;
+}
+
+.card-2 {
+    background: #008b8b;
+    width: 270px;
+    height: 400px;
+    margin: 0px;
+    border-radius: 10;
+}
+
+.card-3 {
+    background: #013f28;
+    width: 270px;
+    height: 400px;
+    margin: 0px;
+    border-radius: 10;
+}
+
+.card-image {
+    height: 70px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.image-1 {
+    background-image: url(Images/SEDANS.png);
+    background-color: orange;
+}
+
+.image-2 {
+    background-image: url(Images/SUVS.png);
+}
+
+.image-3 {
+    background-image: url(Images/LUXURY.png);
+}
+.card-1 h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-2 h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-3 h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-1 p {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-2 p {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-3 p {
+    padding: 10px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card-1 a {
+    background-color: white;
+    color: orange hsl ();
+    padding: 5px 40px;
+    display: block;
+    text-align: center;
+    margin: 5px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-2 a {
+    background-color: white;
+    color: hsl(184, 100%,22%);
+    padding: 5px 40px;
+    display: block;
+    text-align: center;
+    margin: 5px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-3 a {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    padding: 5px 40px;
+    display: block;
+    text-align: center;
+    margin: 5px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-1 a:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+.card-2 a:hover {
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+.card-3 a:hover {
+    background-color: #013f28;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
